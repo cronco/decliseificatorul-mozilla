@@ -23,9 +23,7 @@ function deCliche(text) {
   return text;
 }
 
-console.log(document.title);
 document.title = deCliche(document.title);
-console.log(document.title);
 
 walk(document.body);
 
