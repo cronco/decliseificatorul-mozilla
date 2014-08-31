@@ -4,9 +4,9 @@ var expressions = [
   /\b[Bb][aă]ie[tţț]ilor de[sşș]tep[țţt]i\b/g,
   ],
     replacements = [
-      ['pulifrici', 'bulangii', 'ciocoflenderi', 'borfasi', 'hoti'],
-      ['pulifricii', 'bulangiii', 'ciocoflenderii', 'borfasii', 'hotii'],
-      ['pulifricilor', 'bulangiilor', 'ciocoflenderilor', 'borfasilor', 'hotilor'],
+      ['pulifrici', 'bulangii', 'ciocoflenderi', 'borfași', 'hoți', 'coate goale', 'viitori pușcăriași'],
+      ['pulifricii', 'bulangiii', 'ciocoflenderii', 'borfașii', 'hoții', 'coatele goale', 'viitorii pușcăriași'],
+      ['pulifricilor', 'bulangiilor', 'ciocoflenderilor', 'borfașilor', 'hoților', 'coatelor goale', 'viitorilor pușcăriași'],
     ];
 
 function deCliche(text) {
